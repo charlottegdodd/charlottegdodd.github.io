@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Dodd - Marketing Professional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: opacity 0.3s;
+        }
+
+        .contact-info a:hover {
+            opacity: 0.8;
+        }
+
+        .strengths {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1rem;
+            margin-top: 1.5rem;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .education-item, .experience-item, .involvement-item {
+            margin-bottom: 2rem;
+        }
+
+        .education-item:last-child, .experience-item:last-child, .involvement-item:last-child {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .role {
+            color: #764ba2;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .date {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.8rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .skill-item {
+            background: #f8f9fa;
+            padding: 0.8rem;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .contact-info a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Charlotte Dodd</h1>
+        <div class="contact-info">
+            <span>📍 Lincoln, NE 68508</span>
+            <a href="tel:4029055930">📞 (402) 905-5930</a>
+            <a href="mailto:charlottegdodd7@gmail.com">✉️ charlottegdodd7@gmail.com</a>
+        </div>
+        <div class="strengths">
+            <strong>Clifton Strengths:</strong> Adaptability • Empathy • Individualization • Responsibility • Maximizer
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a marketing student at the University of Nebraska-Lincoln with a passion for creative content, digital design, and building meaningful connections. With experience in customer service, social media management, and creative production, I bring both analytical and artistic skills to every project.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Jobs</h2>
+            <div class="experience-item">
+                <h3>Zerorez</h3>
+                <div class="role">Customer Service Representative</div>
+                <div class="date">June 2025 - August 2025 | Omaha, NE</div>
+                <ul>
+                    <li>Answered 20-30 calls per shift, reading a standard memorized script while speaking with customers to book and sell services</li>
+                    <li>Built relationships with new and returning customers by creating a friendly and helpful environment to maintain a positive brand image</li>
+                    <li>Enhanced confidence in having natural sales conversations and solving customer issues</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Meadows Church</h3>
+                <div class="role">Creative Team Intern</div>
+                <div class="date">May 2025 - August 2025 | Papillion, NE</div>
+                <ul>
+                    <li>Edited photos and graphics in Lightroom and Photoshop weekly to create posts for Instagram, Facebook, and TikTok</li>
+                    <li>Created videos to promote the podcast, original music, and Sunday services to 1,000+ followers</li>
+                    <li>Organized and planned a weekly schedule for content, collaborating with church leadership to maintain consistency and engagement</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="involvement">
+            <h2>Leadership & Involvement</h2>
+            <div class="involvement-item">
+                <h3>University Singers</h3>
+                <div class="role">Choir Member</div>
+                <div class="date">August 2025 - Present | Lincoln, NE</div>
+                <ul>
+                    <li>Dedicate 4+ hours per week to develop singing and performance skills while collaborating as a group to create an impactful final product</li>
+                    <li>Develop and demonstrate effort from a young age to grow individually while being a part of something bigger and build community</li>
+                </ul>
+            </div>
+            <div class="involvement-item">
+                <h3>Delta Gamma</h3>
+                <div class="role">Member & Director of Social Media</div>
+                <div class="date">August 2024 - Present | Lincoln, NE</div>
+                <ul>
+                    <li>Uphold membership standards while fostering friendship to cultivate a welcoming environment</li>
+                    <li>Contribute to community by offering support and empathy to enhance societal well-being</li>
+                    <li>Schedule, create, and publish content for social media to share sorority brand with viewers, as well as provide entertainment</li>
+                </ul>
+            </div>
+            <div class="involvement-item">
+                <h3>Meadows Church</h3>
+                <div class="role">Worship Team Leader</div>
+                <div class="date">May 2024 - Present | Papillion, NE</div>
+                <ul>
+                    <li>Lead the congregation to encourage them in vulnerability and participate in meaningful engagement</li>
+                    <li>Collaborate with church leadership to execute a smooth and uplifting experience during worship</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Digital Design & Graphics</div>
+                <div class="skill-item">Photography</div>
+                <div class="skill-item">Adobe Lightroom</div>
+                <div class="skill-item">Adobe Photoshop</div>
+                <div class="skill-item">Social Media Management</div>
+                <div class="skill-item">Customer Relations</div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Charlotte Dodd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
